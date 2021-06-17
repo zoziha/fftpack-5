@@ -48,7 +48,7 @@ To build this library you need
 To use fftpack within your fpm project, add the following to fpm.toml file:
 ```bash
 [dependencies]
-fftpack = {git = "https://github.com/keurfonluu/FFTPack.git" }
+fftpack = {git = "https://github.com/zoziha/fftpack-5.git" }
 ```
 ### Fpm build
 ```bash
