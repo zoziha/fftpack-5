@@ -1,4 +1,4 @@
-name = "fftpack"
+name = "fftpack-5"
 version = "0.1"
 license = "MIT" 	# Follow the `forlab` license
 author = "keurfonluu"
@@ -7,6 +7,9 @@ copyright = "2016-2021 fftpack contributors"
 
 [library]
 source-dir="src"
+
+[dependencies]
+forlab = { git = "https://github.com/zoziha/forlab.git" }
 
 [[test]]
 name="example_fft"
